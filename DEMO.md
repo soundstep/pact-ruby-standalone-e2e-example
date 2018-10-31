@@ -5,6 +5,7 @@ This has been tested with nodejs 8.3, it might work with newer version.
 ### Installation
 
 ```
+./script/install.sh
 npm install
 ```
 
