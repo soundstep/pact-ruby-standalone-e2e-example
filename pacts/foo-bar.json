@@ -25,6 +25,23 @@
         },
         "body": "Hello world"
       }
+    },
+    {
+      "description": "a CORS request with a hard-coded value for Access-Control-Allow-Origin",
+      "request": {
+        "method": "GET",
+        "path": "/foo",
+        "headers": {
+          "Origin": "http://myservice.com"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Access-Control-Allow-Origin": "http://myservice.com"
+        },
+        "body": "Hello world"
+      }
     }
   ],
   "metadata": {
