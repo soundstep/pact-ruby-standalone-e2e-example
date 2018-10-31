@@ -11,7 +11,7 @@ npm install
 
 ### Run demo
 
-Start a http server to see the tests in a browser, and start a pact-mock-service without interactions.
+The following command starts a http server to see the tests in a browser, and start a pact-mock-service without interactions.
 
 ```
 npm run demo
