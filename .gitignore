@@ -1,2 +1,6 @@
 pact
 pact*tar.gz
+log*
+node_modules*
+tmp*
+reports*

@@ -1,0 +1,24 @@
+{
+  "name": "pact-ruby-standalone-e2e-example",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/pact-foundation/pact-ruby-standalone-e2e-example.svg?branch=master)](https://travis-ci.org/pact-foundation/pact-ruby-standalone-e2e-example)",
+  "main": "index.js",
+  "scripts": {
+    "demo": "demo/start-pact.sh && python -m SimpleHTTPServer 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soundstep/pact-ruby-standalone-e2e-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soundstep/pact-ruby-standalone-e2e-example/issues"
+  },
+  "homepage": "https://github.com/soundstep/pact-ruby-standalone-e2e-example#readme",
+  "devDependencies": {
+    "@pact-foundation/pact-node": "6.20.0",
+    "@pact-foundation/pact-web": "7.0.2"
+  }
+}
